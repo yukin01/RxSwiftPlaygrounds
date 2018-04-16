@@ -6,10 +6,16 @@ RxSwift >= 4.0
 
 ## How to Use
 
+bundler はインストール済みとする
+
 ```
 $ bundle install --path vendor/bundle
+$ bundle exec pod --version
 $ bundle exec pod install
 ```
+
+Xcode で一度 project を run すると playground のエラーが消えるはず
+
 
 # 作業ログ
 
